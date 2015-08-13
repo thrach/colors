@@ -9,23 +9,21 @@
         <br />
         <table class="table table-responsive">
             <thead>
-                <th>Mouline</th>
-                <th>Coton</th>
-                <th>Rayonne</th>
-                <th>Retors</th>
-                <th>Laine</th>
-                <th>Medicis</th>
-                <th>Broder</th>
+                <th>DMC 117</th>
+                <th>DMC 89</th>
+                <th>DMC 486</th>
+                <th>Qty Skeins</th>
+                <th>DMC 115 No 5</th>
+                <th>Qty Skeins</th>
             </thead>
             <tbody>
                 <tr v-repeat="arrColors">
                     <td>@{{ mouline }}</td>
                     <td>@{{ coton }}</td>
                     <td>@{{ rayonne }}</td>
-                    <td>@{{ retors }}</td>
-                    <td>@{{ laine }}</td>
-                    <td>@{{ medicis }}</td>
-                    <td>@{{ broder }}</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                 </tr>
             </tbody>
         </table>

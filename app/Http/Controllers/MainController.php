@@ -10,7 +10,7 @@ class MainController extends Controller
 
     public function getColors(Request $request)
     {
-        $arrSearch = explode(',',$request->search);
+        $arrSearch = explode(' ',$request->search);
 
         return Color::whereIn('mouline', $arrSearch)->get();
     }
