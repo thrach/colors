@@ -19,10 +19,10 @@
             <tbody>
                 <tr v-repeat="arrColors">
                     <td>@{{ mouline }}</td>
+                    <td>@{{ retors }}</td>
+                    <td>@{{ laine }}</td>
+                    <td>&nbsp;</td>
                     <td>@{{ coton }}</td>
-                    <td>@{{ rayonne }}</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
             </tbody>
